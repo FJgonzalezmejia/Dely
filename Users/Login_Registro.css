@@ -1,0 +1,123 @@
+body, html {
+    font-family: Arial, sans-serif;
+    background-image: url(./img/23.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100% !important; ;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+    
+}
+h3 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  
+  
+
+.logo-container {
+    width: 20%;
+    height: 10%;
+    background-color: #003366;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    position: absolute;
+    top: 6%;
+    left: 3%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .logo-container img {
+    width: 65%;
+    height: auto; 
+  }
+  
+  
+  .body {
+    margin: 1%;
+    width: 400px; /* Cambiar el ancho a 100% */
+    background-color: #ffffffa9;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  
+
+.body h1, .body h3 {
+    text-align: center;
+    color: #333333;
+}
+
+.correo, .contraseña ,
+.nombre, .apellido,.numeroEstudiante{
+    margin: 20px 0;
+}
+/* Select dropdown styling */
+.opciones select {
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.247);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Telephone input styling */
+#telefono {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+
+.Crear_cuenta{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.apellido input ,.nombre input,.correo input, .contraseña input,.opciones input,.telefono input,.numeroEstudiante input{
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.button {
+    text-align: center;
+}
+
+.button button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #2423238c;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.button button:hover {
+    background-color: #003366;
+    color: #ffffff;
+    transition: 0.5s;
+}

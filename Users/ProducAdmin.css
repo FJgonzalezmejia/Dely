@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa; /* Fondo gris claro */
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Color azul para el título */
+}
+table {
+    margin: auto; /* Centrar la tabla */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    overflow: hidden; /* Esconder bordes al redondear */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+th {
+    background-color: #007bff; /* Color de fondo azul para encabezados */
+    color: white; /* Texto blanco para encabezados */
+}
+td {
+    vertical-align: middle; /* Centrar verticalmente el contenido de las celdas */
+}
+img {
+    width: 100px; /* Ancho de imagen fijo */
+    height: auto; /* Altura automática */
+    border-radius: 0.5rem; /* Bordes redondeados para imágenes */
+}
+.btn-custom {
+    background-color: #28a745; /* Color verde para botones */
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el mouse */
+}

@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #003366; /* Fondo azul oscuro para la barra de navegación */
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    color: #fff !important; /* Cambia el color del texto del logo (Cafetería) */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none; /* Quita el borde del botón del menú */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28255, 255, 255, 0.7%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); /* Cambia el color del icono de toggler a blanco */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* Cambia el color del texto de los enlaces a blanco */
+    font-size: 1.1rem;
+    margin-right: 15px; /* Espaciado entre los enlaces */
+    transition: color 0.3s ease; /* Transición suave en hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dcdcdc !important; /* Color gris claro al pasar el ratón sobre los enlaces */
+}
+
+/* Botón activo */
+.navbar-nav .nav-item.active .nav-link {
+    color: #ffcc00 !important; /* Cambia el color del enlace activo a amarillo */
+}
+
+/* Estilo responsivo para móvil */
+.navbar-nav {
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-bottom: 10px; /* Espaciado entre los enlaces en vista móvil */
+    }
+}
+
+/* Estilos adicionales */
+.container-fluid {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}

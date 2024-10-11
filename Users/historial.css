@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+    background-color: #f5f5f5; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6f4c3e; /* Color marrón para el navbar */
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.navbar a.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.navbar a.navbar-brand:hover {
+    color: #e2e2e2;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #f8f9fa;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #5a3e35; /* Color más oscuro para hover */
+    border-radius: 5px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #6f4c3e; /* Color marrón para el título */
+}
+
+/* Tabla */
+table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+th, td {
+    padding: 12px; /* Espaciado en celdas */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+th {
+    background-color: #6f4c3e; /* Color de fondo marrón para encabezados */
+    color: white; /* Texto blanco para encabezados */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo gris claro para filas pares */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Color de fondo gris al pasar el mouse */
+}
+
+/* Estilo del botón */
+.btn-primary {
+    background-color: #28a745; /* Color verde para botones */
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el mouse */
+}
+
+/* Estilo de QR */
+#scanQRBtn {
+    margin-left: 15px; /* Espaciado a la izquierda */
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+}

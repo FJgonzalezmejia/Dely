@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Gourmet - Escaneo QR</title>
+    <link rel="stylesheet" href="QR_Admin.css"> <!-- Archivo CSS externo -->
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Delivery Gourmet</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Ingreso_de_productos.html">Ingreso de productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ProducAdmin.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="historial.html">Historial de ventas</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+
+    <!-- Contenedor donde se mostrará el resultado del escaneo -->
+    <div class="container mt-3">
+        <p id="qrResult">Esperando escaneo...</p>
+    </div>
+
+    <!-- Contenedor para el lector de QR -->
+    <div id="reader" style="width: 300px; height: 300px; margin: auto;"></div>
+
+    <!-- Script -->
+    <script src="https://unpkg.com/html5-qrcode/minified/html5-qrcode.min.js"></script> <!-- Librería QR -->
+    <script src="QR_Admin.js"></script> <!-- Archivo JavaScript externo -->
+</body>
+</html>

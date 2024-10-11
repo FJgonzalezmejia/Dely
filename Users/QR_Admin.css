@@ -1,0 +1,171 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+    background-color: #f8f9fa; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40; /* Color de fondo oscuro */
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.navbar a.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f8f9fa; /* Texto claro en la navbar */
+    text-decoration: none;
+}
+
+.navbar a.navbar-brand:hover {
+    color: #17a2b8; /* Color azul al pasar el mouse */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #f8f9fa; /* Texto claro para los enlaces */
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #495057; /* Color de fondo al pasar el mouse */
+    border-radius: 5px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px; /* Aumentado para una mejor disposición */
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Títulos */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #007bff; /* Color azul para los títulos */
+}
+
+h1 {
+    font-size: 28px;
+}
+
+/* Tabla */
+table {
+    margin: auto; /* Centrar la tabla */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    overflow: hidden; /* Esconder bordes al redondear */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    width: 100%; /* Ancho completo para una mejor apariencia */
+    max-width: 100%; /* Evitar que se desborde */
+}
+
+th {
+    background-color: #007bff; /* Color de fondo azul para encabezados */
+    color: white; /* Texto blanco para encabezados */
+    padding: 10px; /* Espaciado interno para celdas */
+}
+
+td {
+    vertical-align: middle; /* Centrar verticalmente el contenido de las celdas */
+    padding: 10px; /* Espaciado interno para celdas */
+}
+
+/* Imagen */
+img {
+    width: 100px; /* Ancho de imagen fijo */
+    height: auto; /* Altura automática */
+    border-radius: 0.5rem; /* Bordes redondeados para imágenes */
+}
+
+/* Botones personalizados */
+.btn-custom {
+    background-color: #28a745; /* Color verde para botones */
+    color: white;
+    padding: 10px 20px; /* Espaciado interno para botones */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.btn-custom:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el mouse */
+}
+
+/* Resultado QR */
+#qrResult {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #e9f7ef; /* Fondo claro */
+    border: 2px solid #c3e6cb; /* Borde verde claro */
+    border-radius: 8px; /* Bordes redondeados */
+    color: #155724; /* Color de texto verde oscuro */
+    transition: all 0.3s ease;
+}
+
+#qrResult:hover {
+    background-color: #d4edda; /* Color más claro al pasar el mouse */
+}
+
+/* Lector QR */
+#reader {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    margin: 30px auto;
+    border: 3px dashed #6c757d; /* Borde gris */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f8f9fa; /* Fondo gris claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reader:hover {
+    border-color: #007bff; /* Cambiar color de borde al pasar el mouse */
+    background-color: #e9ecef; /* Fondo más claro al pasar el mouse */
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column; /* Cambiar dirección a columna */
+    }
+
+    .nav-item {
+        margin: 10px 0; /* Espaciado vertical */
+    }
+
+    .container {
+        margin: 20px;
+        padding: 20px; /* Menor espaciado en pantallas pequeñas */
+    }
+
+    table {
+        width: 100%; /* Ancho completo para la tabla en móviles */
+    }
+}

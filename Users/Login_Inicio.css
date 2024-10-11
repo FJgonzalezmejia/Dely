@@ -1,0 +1,101 @@
+body, html {
+    font-family: Arial, sans-serif;
+    background-image: url(./img/fondoChef.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100% !important; ;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+    
+}
+h3 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  
+  
+
+.logo-container {
+    width: 20%;
+    height: 10%;
+    background-color: #003366;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    position: absolute;
+    top: 6%;
+    left: 3%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .logo-container img {
+    width: 65%;
+    height: auto; 
+  }
+  
+  
+  .body {
+    margin: 2.5%;
+    width: 400px; /* Cambiar el ancho a 100% */
+    height: 90%; /* Cambiar el ancho a 100% */
+    background-color: rgba(255, 255, 255, 0.158);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    background-color: #ffffffa9;
+
+  }
+  .Crear_cuenta{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.body h1, .body h3 {
+    text-align: center;
+    color: #333333;
+}
+
+.correo, .contraseña{
+    margin: 20px 0;
+}
+
+
+
+.correo input, .contraseña input{
+    width: 100%;
+    padding: 10px;
+    background-color: #0000007c;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.button {
+    text-align: center;
+}
+
+.button button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #2423238c;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.button button:hover {
+    background-color: #003366;
+    color: #ffffff;
+    transition: 0.5s;
+}
